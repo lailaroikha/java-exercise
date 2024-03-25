@@ -28,10 +28,23 @@ public class Exercise3 {
         for (int i = 0; i < number; i++) {
             dataNumber[i] = scanner.nextInt();
         }
-        for (int i = 0 : i < dataNumber.length; i++ ){
 
-
-
-
+        if (checkDuplicate(dataNumber)) {
+            System.out.println("True");
+        } else {
+            System.out.println("false");
         }
+        scanner.close();
     }
+        public static boolean checkDuplicate(int[] dataNumber) {
+            for (int i = 0; i < dataNumber.length - 1; i++) {
+                for (int j = i +1; j < dataNumber.length; j++) {
+                    if (dataNumber[i]==dataNumber[j]){
+                        return true;
+                    }
+                }
+            }
+        return false;
+    }
+
+}
