@@ -33,5 +33,6 @@ public class Exercise4 {
                 System.out.print( dataNumber[i] + " ");
             }
         }
+        scanner.close();
     }
 }
