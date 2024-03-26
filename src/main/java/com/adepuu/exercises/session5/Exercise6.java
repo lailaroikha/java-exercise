@@ -12,6 +12,10 @@ public class Exercise6 {
      * Final result: [2, 3, 5]
      */
     public static void main(String[] args) {
+        int [] arr =  { 1, 2, 1, 3, 5, 1};
+
+        for
+
 
     }
 }
