@@ -1,6 +1,30 @@
 package com.adepuu.exercises.session7;
 
+import java.util.Scanner;
+
 public class TicketingSystem {
+    public static void main(String[] args){
+        String code;
+        String Time;
+        int harga;
+        Scanner scanner = new Scanner(System.in);
+        Ticket userCust = new Ticket();
+        System.out.println("-----Pemesanan Tiket-----");
+        System.out.print("Enter your name : ");
+        String name =scanner.nextLine();
+        System.out.println("Enter your number telp : ");
+        String noHp = scanner.next();
+    }
+
+    private static Ticket setName(String name) {
+        return null;
+    }
+    private static Ticket setnoHp (String noHp) {
+        return null
+    }
+
+
+
     /**
      * Write a Java Program using OOP about simple ticketing system for an event.
      * <p>
@@ -18,7 +42,8 @@ public class TicketingSystem {
      * <p>
      * Start your project from the main method below ;) have fun!
      */
-    public static void main(String[] args) {
-
     }
-}
+
+
+
+
