@@ -37,13 +37,15 @@ public class App {
      *     <li>Data does not need to be stored in a File. Instead, store it inside a Map or List and let the data gone when program finished</li>
      * </ul>
      */
-    public static void main(String[] args) {
-        /*
-         Create menu functionalities
-         Split classes
-         Make methods
-         Connect all the functionalities with the related menu ;)
-         GL HF! ;)
-        */
-    }
+     public static void main(String[] args) {
+         UserVerif userVerif = new UserVerif();
+         Menu menu = new Menu(userVerif);
+
+
+
+         // Display the menu
+         while (true) {
+             menu.show();
+         }
+     }
 }
